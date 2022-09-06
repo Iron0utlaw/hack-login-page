@@ -1,0 +1,121 @@
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'poppins';
+}
+
+.imgwali{
+   
+
+   position: fixed;
+   top:0;
+   bottom:0; 
+
+    min-height:100%;
+    
+    width:100%;
+    background-image: url("bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    
+}
+/* @media(max-width:900px){
+
+    .imgwali{
+        height: 100vh;
+    }
+}
+@media(max-width:600px){
+
+    .imgwali{
+        height: 100vh;
+    }
+}
+@media(max-width:400px){
+
+    .imgwali{
+        height: 100vh;
+    }
+} */
+.row{
+    height: 100%;
+}
+.config{
+    
+    flex: 0 0 auto;
+    width: 13%;
+    
+
+}
+.text{
+    width: 38%;
+}
+
+a{
+    text-decoration: none;
+}
+.config2{
+    
+     /* background-color: rgb(239, 255, 255); */
+    flex: 0 0 auto;
+    width: 87%;
+    margin-left: auto;
+  
+    
+    
+    /* background-image: linear-gradient(to bottom right, rgb(179, 234, 234), white); */
+} 
+#hata{
+    width: 100%;
+    overflow-y: hidden;
+  
+    overflow-x: hidden;
+}
+.buttons{
+    width:36%;
+    
+}
+@media(max-width:1000px){
+    .buttons{
+        width: 50%;
+    }
+}
+@media(max-width:900px){
+    .text{
+        width: 100%;
+    }
+    
+    .buttons{ 
+      
+       
+       width:90%
+    }
+}
+@media(max-width:300px){
+    .buttons{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:370px){
+    #icon{
+        display: none;
+    }
+}
+body{
+    width: 100%;
+    overflow-x: hidden !important;
+    
+}
+
+.container-fluid{
+    overflow-x: hidden !important;
+ 
+}
